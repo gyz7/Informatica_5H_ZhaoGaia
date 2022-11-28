@@ -227,7 +227,7 @@
                     echo '<h2>Welcome Back!</h2>'.'     '.$cog.' '.$nom;
                     if($Psd=='123456789')
                     {
-                        echo ' '.("le sue credenziali sono corretti");
+                        echo ' '.("le sue credenziali sono corrette");
                         datiinseriti($cog,$nom,$ema,$tel,$com,$nick,$cit,$ind,$comu,$ca);
     ?>
                         <br>
