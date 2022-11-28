@@ -4,7 +4,9 @@
 <style>
 .error {color: #FF0000;}
 </style>
+<?
 
+?>
 <body>
         <?php
             $lnameErr = $fnameErr = $emailErr = $passwordErr = $nicknameErr = $comuneErr = $capErr = "";
@@ -65,7 +67,7 @@
                 $nickname = stripslashes($var);
                 $nickname = htmlspecialchars($var);
                 if (!preg_match("/^[a-zA-Z0-9_-]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,}$/",$nickname)) {
-                    $emailErr = "Inserire un nickname valido";
+                    $nicknameErr = "Inserire un nickname valido";
                 }
                 else{
                     $cont++;
@@ -119,6 +121,7 @@
                 echo "Cap: " . $cap;
                 echo "<br>";
             }
+            
             
         ?>
 
