@@ -247,7 +247,7 @@
                 }
                 else{
                     echo 'LOGIN ERRATO';
-                    echo ' '.("i suoi cognome/nome sono errati");
+                    echo ' '.("il nome o cognome è errato");
     ?>				
                     <br>
                     <br>
